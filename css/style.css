@@ -1,0 +1,59 @@
+/* header section style */
+header{width: 100%; height: 100px; background: #ddd; color: #000; position: relative;}
+/* <ignore> header .headerWrap{display:flex; align-items:left; justify-content:space-between;} <ignore> */
+
+/* **header leftTit section style** */
+header .leftTit{position:relative; width:20%; float:left; display:flex; align-items:center; justify-content:space-between; line-height: 70px; margin-right: 3%;}
+header .title{color: #000; font-size: 30px; font-weight: 700; display:inline-block; padding: 10px;}
+header i.fa.fa-bars{color: #000; font-size: 30px;}
+header i.fa:hover{cursor: pointer;}
+
+/* **searchBar section style** */
+header .searchBar{width: 70%; height: auto; margin:0; display:flex; _align-items:center; padding-top: 27px; _padding-left: 50px;}
+header .searchBar .searchBox{width: 100%; height: 40px; background: #fff; border: 0.5px solid #ddd; color: #000;}
+header .searchBar i.fa.fa-search{float:left; color: #000; font-size: 28px; padding: 5px; background: #eee; border: 0.5px solid #ddd; box-sizing: border-box;}
+header .searchBar button{border-style:none ;}
+header .searchBar button:hover{cursor: pointer;}
+
+/* **searchBar icon section style** */
+header .rightNav{float: right; width: 15%; margin: auto; display:flex; align-items:center; justify-content:space-between; margin-left: 3%;}
+header .rightNav i.fa{font-size: 30px; padding: 5px 10px; }
+
+
+/* footer section style */
+footer{width: 100%; height: 180px; background: #ddd; border:none;}
+footer .footerNav{margin: 20px 30px;}
+footer .footerNav>li{color: #000; font-size: 20px; font-weight: 700; float: left; padding:30px;}
+footer .footerIconNav{float: right; margin: 10px 30px;}
+footer .footerIconNav>li{float: left;color: #000; font-size: 30px; font-weight: 700; float: left; padding:10px;}
+
+
+/* main banner section style */
+.mainBanner{width: 100%; height: 400px; background: #fff; border: 1px solid #fff; box-sizing: border-box; }
+.mainBanner .imgBox{width: 100%; height:400px; position:relative;}
+.mainBanner .imgBox .rightTxt{width: 35%;  height:100%; background: rgba(255, 241, 195);_background:url(/allthathana/img/banTxtpattn1.jpg) no-repeat center center; _background-size:cover; float: right; position:relative; text-align: right; font-weight: 700;}
+.mainBanner .imgBox .imgWrap{width: 65%; height: 100%; position:absolute;}
+.mainBanner .imgBox .imgWrap>img{width: 100%; height: 100%; object-fit: cover; position:absolute;}
+.mainBanner .imgBox .imgWrap>.overlay{width: 100%; height:100%; background: rgba(255, 241, 195, 0.4); position:absolute;}
+
+.mainBanner .imgBox .rightTxt .mainTit{font-size:20px; padding:50px;}
+.mainBanner .imgBox .rightTxt .subDes{font-size: 15px; padding-right: 50px;}
+.mainBanner .imgBox .rightTxt .simulGo{width: 150px; height: 40px; font-size: 12px; border:none; border-radius: 100%; box-sizing:border-box; background: indianred; padding: 10px; position:relative; top:50%; right:10%;}
+.mainBanner .imgBox .rightTxt .simulGo>a{color:#fff; text-align: center;}
+
+
+
+/* container section style */
+.container{width: 100%; height: 300px; background: #ddd; }
+.cateTit{font-size: 25px; font-weight: 700;}
+.container .thumbBox{width: 290px; height: 290px; background: #fff; border: 1px solid #000; margin: 15px;float: left;}
+.container .thumbBox:hover{}
+.cateNav>li{float: left; margin-right: 15px; font-size: 20px;}
+.cateNav>li.active{font-weight: 700;}
+
+.line{width: 100%; height: 10px; background: #ddd;}
+
+/* guide form style */
+
+
+
